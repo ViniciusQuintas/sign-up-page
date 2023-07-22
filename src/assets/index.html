@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f2b5f25770.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Sign up</title>
+</head>
+
+<body>
+
+    <main class="w-full h-screen bg-[#F9FAFC] dark:bg-[#212529] max-lg:h-full">
+        <header class="flex justify-between items-center max-w-6xl my-0 mx-auto px-4 py-3">
+            <a href="" class="font-[Lunasima] font-bold text-2xl text-[#212529] dark:text-[#F9FAFC]">Sign Up</a>
+            <div class="mt-2">
+                <i class="fa-regular fa-sun cursor-pointer text-xl text-[#1D95F5]"></i>
+                <i class="fa-regular fa-moon cursor-pointer text-xl text-[#1D95F5] hidden"></i>
+            </div>
+        </header>
+        <section class="flex justify-around items-center max-w-7xl my-0 mx-auto px-4 mt-5 max-sm:flex-col max-md:flex-col max-lg:flex-col">
+            <div>
+                <img src="img/banner.svg" alt="banner" class="w-[400px]">
+            </div>
+            
+            <form class="w-[600px] flex justify-center items-center flex-col max-sm:w-[100%]">
+                <h2 class="text-4xl mb-8 font-[Lunasima] font-bold text-[#212529] dark:text-[#F9FAFC]">Let's create a new account</h2>
+                <div class="flex justify-between items-center w-[100%] mb-4 max-sm:flex-col">
+                    <div class="container-input px-4 py-3 bg-gray-100 dark:bg-slate-700 rounded-xl max-sm:w-[100%] max-sm:mb-4 max-sm:max-w-[350px]">
+                        <label for="first-name" class="block text-[#212529] dark:text-[#F9FAFC] text-sm font-[Lunasima]">First name</label>
+                        <input type="text" name="first-name" id="first-name" class="bg-transparent outline-none font-[Lunasima] font-extrabold text-[#212529] dark:text-[#F9FAFC] max-sm:w-[89%] ">
+                        <i class="fa-regular fa-address-card text-xl text-[#212529] dark:text-[#F9FAFC]"></i>
+                    </div>
+                    <div class="container-input px-4 py-3 bg-gray-100 dark:bg-slate-700 rounded-xl max-sm:w-[100%] max-sm:mb-4 max-sm:max-w-[350px] ">
+                        <label for="last-name" class="block text-[#212529] dark:text-[#F9FAFC] text-sm font-[Lunasima]">Last name</label>
+                        <input type="text" name="last-name" id="last-name" class="bg-transparent outline-none font-[Lunasima] font-extrabold text-[#212529] dark:text-[#F9FAFC] max-sm:w-[89%]">
+                        <i class="fa-regular fa-address-card text-xl text-[#212529] dark:text-[#F9FAFC] mr-2"></i>
+                    </div>
+                </div>
+                <div class="container-input w-[100%] px-4 py-3 bg-gray-100 dark:bg-slate-700 rounded-xl mb-4 max-sm:max-w-[350px] ">
+                    <label for="email" class="block text-[#212529] dark:text-[#F9FAFC] text-sm font-[Lunasima]">Email</label>
+                    <input type="email" name="email" id="email" class="bg-transparent outline-none font-[Lunasima] font-extrabold text-[#212529] dark:text-[#F9FAFC] w-[94%] max-sm:w-[89%]">
+                    <i class="fa-regular fa-envelope text-xl text-[#212529] dark:text-[#F9FAFC] "></i>
+                </div>
+                <div class="container-input w-[100%] px-4 py-3 bg-gray-100 dark:bg-slate-700 rounded-xl mb-4 max-sm:max-w-[350px] ">
+                    <label for="password" class="block text-[#212529] dark:text-[#F9FAFC] font-[Lunasima]">Password</label>
+                    <input type="password" name="password" id="password" class="bg-transparent outline-none font-[Lunasima] font-extrabold text-[#212529] dark:text-[#F9FAFC] w-[94%] max-sm:w-[89%]">
+                    <i class="fa-regular fa-eye text-xl text-[#212529] dark:text-[#F9FAFC] cursor-pointer"></i>
+                    <i class="fa-regular fa-eye-slash text-xl text-[#212529] dark:text-[#F9FAFC] cursor-pointer hidden"></i>
+                </div>
+                <div class="container-input w-[100%] px-4 py-3 bg-gray-100 dark:bg-slate-700 rounded-xl mb-4 max-sm:max-w-[350px] ">
+                    <label for="repeat-password" class="block text-[#212529] dark:text-[#F9FAFC] font-[Lunasima]">Repeat password</label>
+                    <input type="password" name="repeat-password" id="repeat-password" class="bg-transparent outline-none font-[Lunasima] font-extrabold text-[#212529] dark:text-[#F9FAFC] w-[94%] max-sm:w-[89%]">
+                    <i class="fa-regular fa-eye text-xl text-[#212529] dark:text-[#F9FAFC] cursor-pointer"></i>
+                    <i class="fa-regular fa-eye-slash text-xl text-[#212529] dark:text-[#F9FAFC] cursor-pointer hidden"></i>
+                </div>
+                <div class="flex justify-between w-[100%]">
+                    <input type="submit" value="Create account" id="submit" class="bg-[#1D95F5] text-[#F9FAFC] font-[Lunasima] font-bold text-xl tracking-wide py-2 px-8 rounded-full cursor-pointer w-[100%] max-sm:max-w-[300px] max-sm:my-0 max-sm:mx-auto">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="js/bundle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+node_modules/
+src/assets/js/
+package-lock.json
+tsconfig.json
+style.css
