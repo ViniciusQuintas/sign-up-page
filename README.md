@@ -1,2 +1,2 @@
 # Sign-up page
-Uma página de cadastro desenvolvida em TypeScript, HTML, Tailwind CSS e algumas dependências. 
+Essa é uma simples página de cadastro, mas que utiliza diversas tecnologias modernas como TypeScript, HTML e Tailwind CSS para fornecer uma experiência agradável ao usuário. A página permite que os usuários criem uma nova conta fornecendo seu nome, sobrenome, e-mail e senha. O design é elegante e intuitivo, além disso, a página inclui validações de entrada de formulário para uma melhor experiência do usuário.
