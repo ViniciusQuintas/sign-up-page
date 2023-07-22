@@ -33,8 +33,27 @@ As tecnologias utilizadas neste projeto foram:
 - **Tailwind CSS:** O framework CSS utilizado para estilizar a página de forma rápida e eficiente.
 
 - **Webpack:** Uma ferramenta essencial para empacotar e otimizar os recursos do projeto. Ele permitiu agrupar os arquivos JavaScript em bundles e com o uso de loaders e plugins, é possível transformar e otimizar o código, tornando-o mais leve e eficiente para o navegador.
-
+  
 - **SweetAlert2:** Uma biblioteca JavaScript para exibir modais e mensagens personalizadas, aprimorando a experiência do usuário fornecendo mensagens de erro e sucesso visualmente agradáveis após a validação do formulário..
 
 - **Validator.js:** Uma biblioteca JavaScript para validar dados, neste projeto, foi responsável por garantir que o e-mail inserido pelo usuário seja válido, reduzindo potenciais problemas com dados inválidos.
 
+# Utilização
+Para usar esse projeto na sua máquina local siga estas etapas:
+- Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+- Clone o repositório para sua máquina local utilizando o seguinte comando:
+```bash
+  git clone https://github.com/ViniciusQuintas/weather-app.git
+```
+- Após clonar o repositório, navegue até o diretório do app no terminal:
+```bash
+  cd weather-app
+```
+- Instale todas as dependências do projeto listadas no arquivo `package.json` com o seguinte comando:
+```bash
+  npm install
+```
+- Após a instalação das dependências, execute o seguinte comando para compilar o código TypeScript e criar os arquivos JavaScript minificados na pasta `src`.
+```bash
+  npm run build
+```
