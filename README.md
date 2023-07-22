@@ -1,5 +1,3 @@
-
-
 # Sign-up page
 Essa é uma simples página de cadastro, mas que utiliza diversas tecnologias modernas como TypeScript, HTML e Tailwind CSS para fornecer uma experiência agradável ao usuário. A página permite que os usuários criem uma nova conta fornecendo seu nome, sobrenome, e-mail e senha. O design é elegante e intuitivo, além disso, a página possui validações de entrada de formulário para uma melhor experiência do usuário.
 <br>
@@ -40,14 +38,14 @@ As tecnologias utilizadas neste projeto foram:
 
 # Utilização
 Para usar esse projeto na sua máquina local siga estas etapas:
-- Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+- Certifique-se de ter o **Node.js** e o **npm** instalados em sua máquina.
 - Clone o repositório para sua máquina local utilizando o seguinte comando:
 ```bash
-  git clone https://github.com/ViniciusQuintas/weather-app.git
+  git clone https://github.com/ViniciusQuintas/sign-up-page.git
 ```
 - Após clonar o repositório, navegue até o diretório do app no terminal:
 ```bash
-  cd weather-app
+  cd sign-up-page
 ```
 - Instale todas as dependências do projeto listadas no arquivo `package.json` com o seguinte comando:
 ```bash
@@ -57,3 +55,26 @@ Para usar esse projeto na sua máquina local siga estas etapas:
 ```bash
   npm run build
 ```
+- Por fim, abra o arquivo `index.html` no seu navegador para visualizar a página "Sign Up" em funcionamento.
+
+# Contribuição
+Se você deseja contribuir para o desenvolvimento desse projeto, siga os seguintes passos:
+
+ 1️⃣ Faça um fork deste repositório. 
+<br>
+<br>
+ 2️⃣ Crie uma nova branch para sua contribuição. 
+<br>
+<br>
+ 3️⃣ Faça suas alterações no código. 
+<br>
+<br>
+ 4️⃣ Certifique-se de que suas alterações não quebram o funcionamento existente da página. 
+<br>
+<br>
+ 5️⃣ Faça um pull request com suas alterações. 
+<br>
+<br>
+
+# Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
