@@ -32,7 +32,7 @@ As tecnologias utilizadas neste projeto foram:
 
 - **Webpack:** Uma ferramenta essencial para empacotar e otimizar os recursos do projeto. Ele permitiu agrupar os arquivos JavaScript em bundles e com o uso de loaders e plugins, é possível transformar e otimizar o código, tornando-o mais leve e eficiente para o navegador.
   
-- **SweetAlert2:** Uma biblioteca JavaScript para exibir modais e mensagens personalizadas, aprimorando a experiência do usuário fornecendo mensagens de erro e sucesso visualmente agradáveis após a validação do formulário..
+- **SweetAlert2:** Uma biblioteca JavaScript para exibir modais e mensagens personalizadas, aprimorando a experiência do usuário fornecendo mensagens de erro e sucesso visualmente agradáveis após a validação do formulário.
 
 - **Validator.js:** Uma biblioteca JavaScript para validar dados, neste projeto, foi responsável por garantir que o e-mail inserido pelo usuário seja válido, reduzindo potenciais problemas com dados inválidos.
 
